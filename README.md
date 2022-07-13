@@ -8,14 +8,14 @@ Table of contents
 
 CHALLENGING
 ---
-  1. [Flashcards](https://hyperskill.org/projects/127?track=2)
+  1. [Flashcards](https://hyperskill.org/projects/127?track=2) --> *in progress*
 
 HARD
 ---
 
 MEDIUM
 ---
-  1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2)
+  1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
 
 | STEPS | Tasks |
 | --- | --- |
@@ -31,7 +31,7 @@ MEDIUM
 
 EASY
 ---
-1. [Loan-Calculator](https://hyperskill.org/projects/90?track=2)
+1. [Loan-Calculator](https://hyperskill.org/projects/90?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/easy/Loan-Calculator/loancalc.py)
 
 Notes
 ---
