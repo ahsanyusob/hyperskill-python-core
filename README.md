@@ -1,22 +1,21 @@
+Table of contents
 ---
-My progress on hyperskill-python-core
 
----
+  * [CHALLENGING](#challenging)
+  * [HARD](#hard)
+  * [MEDIUM](#medium)
+  * [EASY](#easy)
 
 CHALLENGING
 ---
-
----
+  1. [Flashcards](https://hyperskill.org/projects/127?track=2)
 
 HARD
 ---
 
----
-
-
 MEDIUM
 ---
-* [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2)
+  1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2)
 
 | STEPS | Tasks |
 | --- | --- |
@@ -30,10 +29,12 @@ MEDIUM
 | 8 | Prompt to delete duplicates |
 | 9 | Delete all duplicates |
 
----
-
 EASY
 ---
-* [Loan-Calculator](https://hyperskill.org/projects/90?track=2)
+1. [Loan-Calculator](https://hyperskill.org/projects/90?track=2)
 
+Notes
 ---
+*My progress and solutions in hyperskill-python-core...*
+
+*Practicing github readme...*
