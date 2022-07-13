@@ -15,7 +15,7 @@ Hard
 
 Medium
 ---
-  > 1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
+  > 1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[my solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
 > 
 > | DIV | Tasks |
 > | --- | --- |
@@ -31,7 +31,7 @@ Medium
 
 Easy
 ---
-> 1. [Loan-Calculator](https://hyperskill.org/projects/90?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/easy/Loan-Calculator/loancalc.py)
+> 1. [Loan-Calculator](https://hyperskill.org/projects/90?track=2) --> [[my solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/easy/Loan-Calculator/loancalc.py)
 
 Notes
 ---
