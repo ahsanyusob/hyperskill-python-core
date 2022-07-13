@@ -17,7 +17,7 @@ MEDIUM
 ---
   1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
 
-| STEPS | Tasks |
+| DIV | Tasks |
 | --- | --- |
 | 1 | Use command line argument to import file directory |
 | 2 | Prompt file format and filter other file formats from directory |
