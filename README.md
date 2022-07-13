@@ -8,14 +8,14 @@ Table of contents
 
 Challenging
 ---
-  > 1. [Flashcards](https://hyperskill.org/projects/127?track=2) --> *in progress*
+> 1. [Flashcards](https://hyperskill.org/projects/127?track=2) --> *in progress*
 
 Hard
 ---
 
 Medium
 ---
-  > 1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[my solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
+> 1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[my solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
 > 
 > | DIV | Tasks |
 > | --- | --- |
