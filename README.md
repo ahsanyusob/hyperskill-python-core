@@ -1,19 +1,19 @@
 Table of contents
 ---
 
-  * [CHALLENGING](#challenging)
-  * [HARD](#hard)
-  * [MEDIUM](#medium)
-  * [EASY](#easy)
+  * [Challenging](#challenging)
+  * [Hard](#hard)
+  * [Medium](#medium)
+  * [Easy](#easy)
 
-CHALLENGING
+Challenging
 ---
   > 1. [Flashcards](https://hyperskill.org/projects/127?track=2) --> *in progress*
 
-HARD
+Hard
 ---
 
-MEDIUM
+Medium
 ---
   > 1. [Duplicate-File-Handler](https://hyperskill.org/projects/176?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/medium/Duplicate-File-Handler/handler.py)
 > 
@@ -29,7 +29,7 @@ MEDIUM
 > | 8 | Prompt to delete duplicates |
 > | 9 | Delete all duplicates |
 
-EASY
+Easy
 ---
 > 1. [Loan-Calculator](https://hyperskill.org/projects/90?track=2) --> [[solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/easy/Loan-Calculator/loancalc.py)
 
