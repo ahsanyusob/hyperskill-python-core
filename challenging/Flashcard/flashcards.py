@@ -1,4 +1,5 @@
 import random
+import logging
 
 
 # DEF
@@ -73,15 +74,28 @@ def ask_definition(flashcard_dictionary):
     print()
 
 
-# MAIN
-action_list = ["add", "remove", "import", "export", "ask", "exit"]
-flashcard_dict = dict()
-while True:
+def log(flashcard_dictionary):
+    pass
 
-    action = input("Input the action (add, remove, import, export, ask, exit):\n")
+
+def hardest_card(flashcard_dictionary):
+    pass
+
+
+def reset_stats(flashcard_dictionary):
+    pass
+
+
+# MAIN
+action_list = ["add", "remove", "import", "export", "ask", "exit", "log", "hardest card", "reset stats"]
+flashcard_dict = dict()
+
+while True:
+    action = input("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):\n")
 
     while action not in action_list:
-        action = input("Input action from the list (add, remove, import, export, ask, exit):\n")
+        action = input("Input action from the list (add, remove, import, export, ask, exit, log, "
+                       "hardest card, reset stats):\n")
 
     if action == "add":
         add_card(flashcard_dict)
@@ -97,6 +111,15 @@ while True:
 
     elif action == "ask":
         ask_definition(flashcard_dict)
+    
+    elif action == "log":
+        log(flashcard_dict)
+    
+    elif action == "hardest card":
+        hardest_card(flashcard_dict)
+    
+    elif action == "reset stats":
+        reset_stats(flashcard_dict)
 
     else:
         print("Bye Bye!")
