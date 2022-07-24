@@ -1,6 +1,7 @@
 import random
 import sys
 import shutil
+import argparse
 from collections import defaultdict
 
 
@@ -55,16 +56,19 @@ def remove_card(flashcard_dictionary):
         print(f'Can\'t remove "{card2remove}": there is no such card.\n')
 
 
-def import_card():
+def import_card(imported_file_name=None):
     try:
-        file_name = input("File name:\n")
+        if imported_file_name is not None:
+            file_name = imported_file_name
+        else:
+            file_name = input("File name:\n")
         with open(file_name, "rt") as text:
             n = 0
             flashcard_dictionary = defaultdict(list)
             for line in text:
                 _key, _val, _numErr = line[:-1].split(": ")
                 n += 1
-                flashcard_dictionary.update({_key: [_val, _numErr]})
+                flashcard_dictionary.update({_key: [_val, int(_numErr)]})
         print(f'{n} cards have been loaded\n')
 
         return flashcard_dictionary
@@ -73,8 +77,11 @@ def import_card():
         print("File not found.\n")
 
 
-def export_card(flashcard_dictionary):
-    file_name = input("File name:\n")
+def export_card(flashcard_dictionary, export_destination=None):
+    if export_destination is not None:
+        file_name = export_destination
+    else:
+        file_name = input("File name:\n")
     n = 0
     with open(file_name, "w", encoding="utf-8") as text:
         for _k, _v in flashcard_dictionary.items():
@@ -133,10 +140,25 @@ def reset_stats(flashcard_dictionary):
 # MAIN
 action_list = ["add", "remove", "import", "export", "ask", "exit", "log", "hardest card", "reset stats"]
 flashcard_dict = defaultdict(list)
+export_flag = False
 
 default_log = 'temp.txt'
 sys.stdout = LoggerOut(default_log)
 sys.stdin = LoggerIn(default_log)
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--import_from")
+parser.add_argument("--export_to")
+args = parser.parse_args()
+
+if args.import_from is not None:
+    imported_file = args.import_from
+    flashcard_dict = import_card(imported_file)
+if args.export_to is not None:
+    export_flag = True
+    export_filename = args.export_to
+    export_card(flashcard_dict, export_filename)
+
 
 while True:
     action = input("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):\n")
@@ -170,5 +192,7 @@ while True:
         reset_stats(flashcard_dict)
 
     else:
-        print("Bye Bye!")
+        if export_flag is True:
+            export_card(flashcard_dict, export_filename)
+        print("Bye Bye!\n")
         break
