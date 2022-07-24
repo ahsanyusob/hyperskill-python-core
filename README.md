@@ -8,7 +8,7 @@ Table of contents
 
 Challenging
 ---
-> 1. [Flashcards](https://hyperskill.org/projects/127?track=2) --> *in progress*
+> 1. [Flashcards](https://hyperskill.org/projects/127?track=2) --> [[my solution]](https://github.com/ahsanyusob/hyperskill-python-core/blob/main/challenging/Flashcard/flashcards.py)
 
 Hard
 ---
